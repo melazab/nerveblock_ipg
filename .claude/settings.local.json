@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -v -E \"\\(Drivers/|Middlewares/|STM32_WPAN/|\\\\.svd$|startup_\\)\")"
+    ]
+  }
+}

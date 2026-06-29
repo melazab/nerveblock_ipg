@@ -1,0 +1,37 @@
+# EditorConfig: https://editorconfig.org/
+
+# Top-most EditorConfig file
+root = true
+
+# All (Defaults)
+[*]
+charset = utf-8
+insert_final_newline = true
+trim_trailing_whitespace = true
+max_line_length = 100
+end_of_line = lf
+
+# C
+[*.{c,cpp,h}]
+indent_style = space
+indent_size = 4
+
+# Python
+[*.py]
+indent_stype = space
+indent_size = 4
+
+# Makefile
+[Makefile]
+indent_style = tab
+indent_size = 8
+
+# CMake
+[CMakeLists.txt]
+indent_style = space
+indent_size = 4
+
+# YAML
+[*.yml]
+indent_style = space
+indent_size = 2
